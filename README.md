@@ -10,7 +10,7 @@ How to build and install HyperGraphLib
 In a terminal:
 
 ```shell
-https://github.com/ehzawad/HyperGraphLib.git
+git clone https://github.com/ehzawad/HyperGraphLib.git
 cd HyperGraphLib
 cmake CMakeLists.txt
 make

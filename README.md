@@ -135,6 +135,28 @@ $ ./example
 The hypergraph is isomorph with itself
 The hypergraph is simple.
 ```
+demo (Unix / Linux)
+------------------------------------
+```shell
+cmake CMakeLists.txt
+make demo
+
+How to generate a random hypergraph with 5 vertexes ?
+
+./demo/demo --random 5 > myAwesomeHypergraph.txt
+
+How to get the adjacent matrix ?
+
+./demo/demo --inputfile myAwesomeHypergraph.txt --adjacence
+
+How to know if my hypergraph is connected (each vertex can be reach) ?
+
+./demo/demo --inputfile myAwesomeHypergraph.txt --connexe
+
+How to use HyperGraphLib ?
+
+./demo/demo --help
+
 
 Boost Library
 -------------
